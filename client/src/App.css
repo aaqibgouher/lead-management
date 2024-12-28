@@ -1,0 +1,11 @@
+.table-header {
+    background-color: #fbd4d0 !important;
+    /* Ensures background color overrides any conflicts */
+    font-weight: bold !important;
+    /* Ensures bold text */
+}
+
+.table tbody tr:hover {
+    background-color: #fbd4d0 !important;
+    /* Hover effect for rows */
+}

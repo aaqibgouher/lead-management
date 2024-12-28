@@ -1,0 +1,81 @@
+.custom-btn:hover {
+    background-color: #fbd4d0;
+}
+
+/* Add right border to the sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    padding: 20px;
+    overflow-y: auto;
+    color: black;
+    border-right: 1px solid #ddd;
+    /* Right border added */
+}
+
+.sidebar h5 {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.menu-item {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: #fbd4d0;
+}
+
+.menu-item a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.menu-item a:hover {
+    background-color: #fbd4d0;
+}
+
+.menu-item .icon {
+    margin-right: 10px;
+}
+
+.active-link {
+    background-color: #fbd4d0;
+    color: black;
+    font-weight: bold;
+}
+
+.hover-item:hover {
+    background-color: #f8f9fa;
+    /* Light gray background on hover */
+    cursor: pointer;
+}
+
+.dark-color {
+    color: "#d73c46"
+}
+
+.dark-background-color {
+    background-color: "#d73c46";
+}
+
+.light-color {
+    color: "#fbd4d0";
+}
+
+.light-background-color {
+    background-color: "#fbd4d0";
+}

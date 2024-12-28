@@ -1,0 +1,5 @@
+/* Ensure header background color is applied */
+.table .table-header th {
+    background-color: #fbd4d0 !important;
+    font-weight: bold !important;
+}
